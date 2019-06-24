@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding: 0;
+	.slick { width: 800px; margin: 0 auto;}
+	.slick-prev:before, .slick-next:before { position: absolute; left: 0; top: 1px; color: #ccc;}
+	.slick-prev { left: -35px;}
+	.slick-next { right: -35px;}
+	.slick-dots { bottom: -35px;}
+}
+body{
+	font-size: 12px;
+	font-family: '微软雅黑';
+	background-color:#eff4ee;
+	}
+a,a:visited{
+	color:#333;
+	text-decoration: none;
+}
+a:hover{
+	color:#cc0d24;
+	text-decoration: none;
+}
+.containter{
+	width:1192px;
+	margin:0 auto;
+}
+.lf{
+	float:left;
+}
+.rf{
+	float: right;
+}
+li{
+	list-style-type: none;
+}
+/*.input,button{
+	online:none;
+}*/
+i{
+	display: inline-block;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	background-image: url(../images/iconlist_2.png);
+}
+b{
+	display: inline-block;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+img:hover{
+	opacity: 0.75;
+	transition: 0.5s;
+}
