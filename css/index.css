@@ -82,13 +82,6 @@
 	height: 170px;
 	background-color: white;
 }
-
-/*.tu>.header_left>img{
-    margin-top: -30px;
-}
-.tu>.header_left>img{
-    margin-top: -30px;
-}*/
 .search{
 	margin-top: -110px;
 	margin-left: 320px;
@@ -210,7 +203,8 @@
 		font-size: 13px;
 		padding-left: 17px;
 	}
-.nav_l>li:nth-child(1){
+.nav_l>li:nth-child(1)
+{
 		margin-top: 6px;
 	}
 .nav_l>li:hover{
@@ -869,7 +863,14 @@
 	margin-left: 5px;
 	margin-top: 30px;
 }
+ #rab1:target,#rab2:target,#rab3:target,#rab4:target,#rab5:target{
+      	opacity: 1;
+      	transition: 1s;
 
+      }
+ #rab1:not(:target),#rab2:not(:target),#rab3:not(:target),#rab4:not(:target),#rab5:not(:target){
+      	opacity: 0;
+      }
 .wz-18{
 	font-weight: bold;
 	font-size: 30px;
@@ -902,19 +903,6 @@
 	top:35px;
 	left:100px;
 }
-
-#rab1:target,#rab2:target,#rab3:target,#rab4:target,#rab5:target{
-      	opacity: 1;
-      	transition: 1s;
-
-      }
-#rab1:not(:target),#rab2:not(:target),#rab3:not(:target),#rab4:not(:target)#rab5:not(:target){
-      	opacity: 0;
-      }
-       @keyframes rot {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-      }
 .main2>div:nth-child(2)>div:nth-child(1)>div:nth-child(2){
 	font-size: 13px;
 	margin-left: 110px;
@@ -2178,15 +2166,4 @@
     transition: 0.5s;
     z-index: 10;
     }
- #rab1:target,#rab2:target,#rab3:target,#rab4:target,#rab5:target{
-      	opacity: 1;
-      	transition: 1s;
 
-      }
-      #rab1:not(:target),#rab2:not(:target),#rab3:not(:target),#rab4:not(:target),#rab5:not(:target){
-      	opacity: 0;
-      }
-       @keyframes rot {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-      }
